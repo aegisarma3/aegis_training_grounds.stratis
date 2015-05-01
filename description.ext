@@ -1,0 +1,14 @@
+onLoadName = AEGIS - Treinamento;
+author = <82ndAB>SPC.Moose / Toaster;
+onLoadMission = Bem vindo ao centro de treinamento. Aguarde no local para instruções.
+LoadScreen = "images\Loadscreen.jpg";
+
+disabledAI = 1;
+
+respawn = "BASE";
+respawnDelay = 5;
+respawnDialog = false;
+
+enableDebugConsole = 1;
+
+
