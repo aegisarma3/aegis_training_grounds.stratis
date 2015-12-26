@@ -1,5 +1,5 @@
 onLoadName = AEGIS - Treinamento;
-author = <82ndAB>SPC.Moose / Toaster;
+author = Toaster[AEGIS];
 onLoadMission = Bem vindo ao centro de treinamento. Aguarde no local para instruções.
 LoadScreen = "images\Loadscreen.jpg";
 
@@ -12,5 +12,3 @@ respawnDialog = false;
 enableDebugConsole = 1;
 
 #include "aegis_ace_settings.hpp"
-
-

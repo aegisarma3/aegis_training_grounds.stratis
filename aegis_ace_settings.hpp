@@ -125,6 +125,36 @@ class ACE_Settings {
       typeName = "BOOL";
       force = 1;
   };
+  class ace_map_DefaultChannel {
+      value = -1;
+      typeName = "SCALAR";
+      force = 1;
+  };
+  class ace_map_gestures_enabled {
+      value = 1;
+      typeName = "BOOL";
+      force = 1;
+  };
+  class ace_map_gestures_maxRange {
+      value = 7;
+      typeName = "SCALAR";
+      force = 1;
+  };
+  class ace_map_gestures_interval {
+      value = 0.03;
+      typeName = "SCALAR";
+      force = 1;
+  };
+  class ace_map_gestures_GroupColorConfigurations {
+
+      typeName = "ARRAY";
+      force = 1;
+  };
+  class ace_map_gestures_GroupColorConfigurationMapping {
+
+      typeName = "ARRAY";
+      force = 1;
+  };
   class ace_maptools_EveryoneCanDrawOnBriefing {
       value = 1;
       typeName = "BOOL";
@@ -141,7 +171,7 @@ class ACE_Settings {
       force = 1;
   };
   class ace_medical_enableFor {
-      value = 1;
+      value = 0;
       typeName = "SCALAR";
       force = 1;
   };
@@ -166,7 +196,7 @@ class ACE_Settings {
       force = 1;
   };
   class ace_medical_enableFractures {
-      value = 1;
+      value = 0;
       typeName = "BOOL";
       force = 1;
   };
@@ -196,7 +226,7 @@ class ACE_Settings {
       force = 1;
   };
   class ace_medical_enableUnconsciousnessAI {
-      value = 1;
+      value = 0;
       typeName = "SCALAR";
       force = 1;
   };
@@ -256,17 +286,17 @@ class ACE_Settings {
       force = 1;
   };
   class ace_medical_consumeItem_SurgicalKit {
-      value = 0;
+      value = 1;
       typeName = "SCALAR";
       force = 1;
   };
   class ace_medical_useLocation_PAK {
-      value = 3;
+      value = 2;
       typeName = "SCALAR";
       force = 1;
   };
   class ace_medical_useLocation_SurgicalKit {
-      value = 2;
+      value = 3;
       typeName = "SCALAR";
       force = 1;
   };
@@ -276,7 +306,7 @@ class ACE_Settings {
       force = 1;
   };
   class ace_medical_useCondition_SurgicalKit {
-      value = 1;
+      value = 0;
       typeName = "SCALAR";
       force = 1;
   };
@@ -301,12 +331,17 @@ class ACE_Settings {
       force = 1;
   };
   class ace_medical_moveUnitsFromGroupOnUnconscious {
-      value = 0;
+      value = 1;
       typeName = "BOOL";
       force = 1;
   };
   class ace_medical_menu_allow {
       value = 1;
+      typeName = "SCALAR";
+      force = 1;
+  };
+  class ace_medical_menu_maxRange {
+      value = 3;
       typeName = "SCALAR";
       force = 1;
   };
@@ -342,6 +377,21 @@ class ACE_Settings {
   };
   class ace_nametags_playerNamesMaxAlpha {
       value = 0.8;
+      typeName = "SCALAR";
+      force = 1;
+  };
+  class ace_nightvision_disableNVGsWithSights {
+      value = 1;
+      typeName = "BOOL";
+      force = 1;
+  };
+  class ace_rearm_level {
+      value = 0;
+      typeName = "SCALAR";
+      force = 1;
+  };
+  class ace_refuel_rate {
+      value = 1;
       typeName = "SCALAR";
       force = 1;
   };
@@ -386,7 +436,7 @@ class ACE_Settings {
       force = 1;
   };
   class ace_repair_wheelRepairRequiredItems {
-      value = 0;
+      value = 1;
       typeName = "SCALAR";
       force = 1;
   };
@@ -411,7 +461,7 @@ class ACE_Settings {
       force = 1;
   };
   class ace_spectator_filterUnits {
-      value = 1;
+      value = 2;
       typeName = "SCALAR";
       force = 1;
   };
@@ -521,7 +571,7 @@ class ACE_Settings {
       force = 1;
   };
   class ace_winddeflection_enabled {
-      value = 0;
+      value = 1;
       typeName = "BOOL";
       force = 1;
   };
@@ -576,7 +626,7 @@ class ACE_Settings {
       force = 1;
   };
   class ace_captives_requireSurrender {
-      value = 2;
+      value = 1;
       typeName = "SCALAR";
       force = 1;
   };
@@ -621,6 +671,11 @@ class ACE_Settings {
       force = 1;
   };
   class ace_hearing_enabledForZeusUnits {
+      value = 1;
+      typeName = "BOOL";
+      force = 1;
+  };
+  class ace_hearing_autoAddEarplugsToUnits {
       value = 1;
       typeName = "BOOL";
       force = 1;
